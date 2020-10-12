@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class TestEligibility {
 	public static void main(String args[]){
-		AgeEligibility agel = new AgeEligibility();
-		
+		AgeEligibility agel = new AgeEligibility();//Create an object for AgeEligibility class.
+		// Instantiate scanner
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter Name ");
+		System.out.println("Enter Name "); //Get user name details
 		String name = scan.nextLine();
-		System.out.println("Enter Age ");
+		System.out.println("Enter Age ");// Get user age details
 		int age = scan.nextInt();
 		
 		int result = agel.checkEligibility(age);
