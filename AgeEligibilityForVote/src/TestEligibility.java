@@ -1,5 +1,14 @@
 import java.util.Scanner;
+/**
+ * The Class TestEligibility.
+ */
 public class TestEligibility {
+	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String args[]){
 		AgeEligibility agel = new AgeEligibility();//Create an object for AgeEligibility class.
 		// Instantiate scanner
