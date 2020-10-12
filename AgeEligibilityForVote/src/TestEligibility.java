@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class TestEligibility {
 	
 	/**
-	 * The main method.
-	 *
 	 * @param args the arguments
 	 */
 	public static void main(String args[]){
