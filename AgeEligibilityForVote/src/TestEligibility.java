@@ -4,9 +4,7 @@ import java.util.Scanner;
  */
 public class TestEligibility {
 	
-	/**
-	 * @param args the arguments
-	 */
+
 	public static void main(String args[]){
 		AgeEligibility agel = new AgeEligibility();//Create an object for AgeEligibility class.
 		// Instantiate scanner
